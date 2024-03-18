@@ -133,7 +133,7 @@ class _HomeState extends State<Home> {
                 child: Row(
                   children: [
                     GestureDetector(
-                       onTap: (){ if ((searchController.text).replaceAll("  ", "") ==
+                       onTap: (){ if ((searchController.text).replaceAll(" ", "") ==
                       "") {
                     print("Blank search");
                   } else {
